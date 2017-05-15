@@ -1,0 +1,38 @@
+2016-12-03 16:40:05.144 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<chg:changesDto xmlns:com="http://isis.apache.org/schema/common" xmlns:chg="http://isis.apache.org/schema/chg">
+    <chg:majorVersion>1</chg:majorVersion>
+    <chg:minorVersion>0</chg:minorVersion>
+    <chg:transactionId>c37937da-6433-409f-bb7f-3cac7a6736ac</chg:transactionId>
+    <chg:sequence>5</chg:sequence>
+    <chg:completedAt>2016-12-03T16:40:05.137+01:00</chg:completedAt>
+    <chg:user>sven</chg:user>
+    <chg:objects>
+        <chg:loaded>0</chg:loaded>
+        <chg:created>
+            <com:oid type="simple.SimpleObject" id="0"/>
+        </chg:created>
+        <chg:updated/>
+        <chg:deleted/>
+        <chg:propertiesModified>2</chg:propertiesModified>
+    </chg:objects>
+</chg:changesDto>
+
+2016-12-03 16:40:20.072 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<chg:changesDto xmlns:com="http://isis.apache.org/schema/common" xmlns:chg="http://isis.apache.org/schema/chg">
+    <chg:majorVersion>1</chg:majorVersion>
+    <chg:minorVersion>0</chg:minorVersion>
+    <chg:transactionId>34412d72-8f19-40bb-b59c-9a4697c7ac1c</chg:transactionId>
+    <chg:sequence>2</chg:sequence>
+    <chg:completedAt>2016-12-03T16:40:20.070+01:00</chg:completedAt>
+    <chg:user>sven</chg:user>
+    <chg:objects>
+        <chg:loaded>1</chg:loaded>
+        <chg:created/>
+        <chg:updated/>
+        <chg:deleted>
+            <com:oid type="simple.SimpleObject" id="0"/>
+        </chg:deleted>
+        <chg:propertiesModified>2</chg:propertiesModified>
+    </chg:objects>
+</chg:changesDto>
+

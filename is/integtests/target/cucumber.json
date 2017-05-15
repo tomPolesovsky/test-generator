@@ -1,0 +1,686 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 9925142035,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BootstrappingGlue.beforeScenarioIntegrationScope()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Existing Rent objects can be listed and new ones created",
+        "description": "",
+        "id": "list-and-create-new-rent-objects;existing-rent-objects-can-be-listed-and-new-ones-created",
+        "after": [
+          {
+            "result": {
+              "duration": 12546639,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BootstrappingGlue.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 363484900,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I have 0 Rent objects",
+            "match": {
+              "arguments": [
+                {
+                  "val": "0",
+                  "offset": 7
+                }
+              ],
+              "location": "RentGlue.I_have_N_Rent_objects(int)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 125914340,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I create a Rent object",
+            "match": {
+              "location": "RentGlue.I_create_a_Rent_object()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1165637,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I create a Rent object",
+            "match": {
+              "location": "RentGlue.I_create_a_Rent_object()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 239733554,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I have 2 Rent objects",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2",
+                  "offset": 7
+                }
+              ],
+              "location": "RentGlue.I_have_N_Rent_objects(int)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 2,
+            "name": "@integration"
+          }
+        ]
+      }
+    ],
+    "name": "List and Create new Rent Objects",
+    "description": "",
+    "id": "list-and-create-new-rent-objects",
+    "keyword": "Feature",
+    "uri": "domainapp/integtests/specs/modules/carrental/RentSpec_listAllAndCreate.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3234691,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BootstrappingGlue.beforeScenarioIntegrationScope()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Existing VehicleType objects can be listed and new ones created",
+        "description": "",
+        "id": "list-and-create-new-vehicletype-objects;existing-vehicletype-objects-can-be-listed-and-new-ones-created",
+        "after": [
+          {
+            "result": {
+              "duration": 843163,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BootstrappingGlue.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3388336,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I have 0 VehicleType objects",
+            "match": {
+              "arguments": [
+                {
+                  "val": "0",
+                  "offset": 7
+                }
+              ],
+              "location": "VehicleTypeGlue.I_have_N_VehicleType_objects(int)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2996623,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I create a VehicleType object with vniDSYuR \"v5GmG\" and v0NXzGua \"vOwDV\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "v5GmG",
+                  "offset": 45
+                },
+                {
+                  "val": "vOwDV",
+                  "offset": 66
+                }
+              ],
+              "location": "VehicleTypeGlue.I_create_a_VehicleType_object(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 562341,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I create a VehicleType object with vniDSYuR \"vpI3S\" and v0NXzGua \"vDtYu\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "vpI3S",
+                  "offset": 45
+                },
+                {
+                  "val": "vDtYu",
+                  "offset": 66
+                }
+              ],
+              "location": "VehicleTypeGlue.I_create_a_VehicleType_object(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 7612842,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I have 2 VehicleType objects",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2",
+                  "offset": 7
+                }
+              ],
+              "location": "VehicleTypeGlue.I_have_N_VehicleType_objects(int)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 2,
+            "name": "@integration"
+          }
+        ]
+      }
+    ],
+    "name": "List and Create new VehicleType Objects",
+    "description": "",
+    "id": "list-and-create-new-vehicletype-objects",
+    "keyword": "Feature",
+    "uri": "domainapp/integtests/specs/modules/carrental/VehicleTypeSpec_listAllAndCreate.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 5415348,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BootstrappingGlue.beforeScenarioIntegrationScope()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Existing Customer objects can be listed and new ones created",
+        "description": "",
+        "id": "list-and-create-new-customer-objects;existing-customer-objects-can-be-listed-and-new-ones-created",
+        "after": [
+          {
+            "result": {
+              "duration": 1564210,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BootstrappingGlue.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6621715,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I have 0 Customer objects",
+            "match": {
+              "arguments": [
+                {
+                  "val": "0",
+                  "offset": 7
+                }
+              ],
+              "location": "CustomerGlue.I_have_N_Customer_objects(int)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 825017,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I create a Customer object with vVFrYYDK \"vQlCk\" and v6u2PTpn \"vmDCU\" and vrA5dzNS \"vHF0f\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "vQlCk",
+                  "offset": 42
+                },
+                {
+                  "val": "vmDCU",
+                  "offset": 63
+                },
+                {
+                  "val": "vHF0f",
+                  "offset": 84
+                }
+              ],
+              "location": "CustomerGlue.I_create_a_Customer_object(String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 814844,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I create a Customer object with vVFrYYDK \"vBzvD\" and v6u2PTpn \"vxp1S\" and vrA5dzNS \"vV8lp\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "vBzvD",
+                  "offset": 42
+                },
+                {
+                  "val": "vxp1S",
+                  "offset": 63
+                },
+                {
+                  "val": "vV8lp",
+                  "offset": 84
+                }
+              ],
+              "location": "CustomerGlue.I_create_a_Customer_object(String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 7661553,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I have 2 Customer objects",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2",
+                  "offset": 7
+                }
+              ],
+              "location": "CustomerGlue.I_have_N_Customer_objects(int)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 2,
+            "name": "@integration"
+          }
+        ]
+      }
+    ],
+    "name": "List and Create new Customer Objects",
+    "description": "",
+    "id": "list-and-create-new-customer-objects",
+    "keyword": "Feature",
+    "uri": "domainapp/integtests/specs/modules/customer/CustomerSpec_listAllAndCreate.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2968132,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BootstrappingGlue.beforeScenarioIntegrationScope()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Existing Vehicle objects can be listed and new ones created",
+        "description": "",
+        "id": "list-and-create-new-vehicle-objects;existing-vehicle-objects-can-be-listed-and-new-ones-created",
+        "after": [
+          {
+            "result": {
+              "duration": 1336534,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BootstrappingGlue.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6187235,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I have 0 Vehicle objects",
+            "match": {
+              "arguments": [
+                {
+                  "val": "0",
+                  "offset": 7
+                }
+              ],
+              "location": "VehicleGlue.I_have_N_Vehicle_objects(int)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 874700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I create a Vehicle object with type \"Škoda 120\" and price \"10000\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Škoda 120",
+                  "offset": 37
+                },
+                {
+                  "val": "10000",
+                  "offset": 59
+                }
+              ],
+              "location": "VehicleGlue.I_create_a_Vehicle_object(String,int)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 795048,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I create a Vehicle object with type \"Škoda Fabia\" and price \"50000\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Škoda Fabia",
+                  "offset": 37
+                },
+                {
+                  "val": "50000",
+                  "offset": 61
+                }
+              ],
+              "location": "VehicleGlue.I_create_a_Vehicle_object(String,int)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 12349794,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I have 2 Vehicle objects",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2",
+                  "offset": 7
+                }
+              ],
+              "location": "VehicleGlue.I_have_N_Vehicle_objects(int)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 2,
+            "name": "@integration"
+          }
+        ]
+      }
+    ],
+    "name": "List and Create new Vehicle Objects",
+    "description": "",
+    "id": "list-and-create-new-vehicle-objects",
+    "keyword": "Feature",
+    "uri": "domainapp/integtests/specs/modules/vehicle/VehicleSpec_listAllAndCreate.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3771380,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BootstrappingGlue.beforeScenarioIntegrationScope()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Set the title and receive string",
+        "description": "",
+        "id": "set-the-title-of-the-vehicle;set-the-title-and-receive-string",
+        "after": [
+          {
+            "result": {
+              "duration": 496245,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BootstrappingGlue.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1194184,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I have the object Vehicle",
+            "match": {
+              "location": "VehicleGlue.I_have_the_object()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 162148,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I set the title of the Vehicle",
+            "match": {
+              "location": "VehicleGlue.I_set_the_title()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4919475,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I receive the string title",
+            "match": {
+              "location": "VehicleGlue.I_receive_the_string_title()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 2,
+            "name": "@integration"
+          }
+        ]
+      }
+    ],
+    "name": "Set the title of the Vehicle",
+    "description": "",
+    "id": "set-the-title-of-the-vehicle",
+    "keyword": "Feature",
+    "uri": "domainapp/integtests/specs/modules/vehicle/VehicleSpec_setTitle.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3388463,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BootstrappingGlue.beforeScenarioIntegrationScope()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Validate the price and receive error message",
+        "description": "",
+        "id": "validate-the-price-of-the-vehicle;validate-the-price-and-receive-error-message",
+        "after": [
+          {
+            "result": {
+              "duration": 444042,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BootstrappingGlue.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 310544,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I have the value \"-500\" for a \"price\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "-500",
+                  "offset": 18
+                },
+                {
+                  "val": "price",
+                  "offset": 31
+                }
+              ],
+              "location": "VehicleGlue.I_have_the_value_N(int,String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 454183,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I validate the \"price\" of the Vehicle",
+            "match": {
+              "arguments": [
+                {
+                  "val": "price",
+                  "offset": 16
+                }
+              ],
+              "location": "VehicleGlue.I_validate_item(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 64961,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I receive the error message",
+            "match": {
+              "location": "VehicleGlue.I_receive_the_error_message()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 2,
+            "name": "@integration"
+          }
+        ]
+      }
+    ],
+    "name": "Validate the price of the Vehicle",
+    "description": "",
+    "id": "validate-the-price-of-the-vehicle",
+    "keyword": "Feature",
+    "uri": "domainapp/integtests/specs/modules/vehicle/VehicleSpec_validateMethod_price.feature"
+  }
+]

@@ -1,0 +1,4 @@
+2016-12-03 16:40:05.135 c37937da-6433-409f-bb7f-3cac7a6736ac,0: simple.SimpleObject:0 by sven, name: [NEW] -> test
+2016-12-03 16:40:05.136 c37937da-6433-409f-bb7f-3cac7a6736ac,0: simple.SimpleObject:0 by sven, notes: [NEW] -> null
+2016-12-03 16:40:20.067 34412d72-8f19-40bb-b59c-9a4697c7ac1c,0: simple.SimpleObject:0 by sven, name: test -> [DELETED]
+2016-12-03 16:40:20.069 34412d72-8f19-40bb-b59c-9a4697c7ac1c,0: simple.SimpleObject:0 by sven, notes: null -> [DELETED]

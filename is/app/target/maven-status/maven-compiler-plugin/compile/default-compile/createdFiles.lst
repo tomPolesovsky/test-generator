@@ -1,0 +1,5 @@
+domainapp/app/services/homepage/HomePageViewModel.class
+domainapp/app/DomainAppAppManifest.class
+domainapp/app/services/homepage/HomePageService.class
+domainapp/app/DomainAppAppModule.class
+domainapp/app/DomainAppAppManifestBypassSecurity.class

@@ -1,0 +1,10 @@
+domainapp/dom/DomainAppDomainModule.class
+domainapp/dom/customer/CustomerMenu.class
+domainapp/dom/DomainAppDomManifest.class
+domainapp/dom/customer/Customer.class
+domainapp/dom/carrental/QRent.class
+domainapp/dom/customer/CustomerMenu$CreateDomainEvent.class
+domainapp/dom/carrental/VehicleType.class
+domainapp/dom/carrental/QVehicleType.class
+domainapp/dom/customer/CustomerRepository.class
+domainapp/dom/customer/QCustomer.class
