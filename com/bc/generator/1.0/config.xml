@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <path>
+		<pom>/YOUR_PATH/PROJECT_NAME/dom/pom.xml</pom>
+		<input>/YOUR_PATH/PROJECT_NAME/dom/src/main/java/domainapp/dom/</input>
+		<output>/YOUR_PATH/PROJECT_NAME/integtests/src/test/java/domainapp/integtests</output>
+		<target>/YOUR_PATH/PROJECT_NAME/isis_example/dom/target/classes</target>
+	</path>
+	<package>
+		<input>domainapp.dom</input>
+		<output>domainapp.integtests</output>
+	</package>
+	<tests>
+		<set>com.bc.core.test.title.Generator</set>
+		<set>com.bc.core.test.object.Generator</set>
+		<set>com.bc.core.test.validate.Generator</set>
+	</tests>
+	<dependencies>
+		
+	</dependencies>
+</config>
